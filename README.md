@@ -28,7 +28,7 @@ envsubst < ansible.cfg.template > ansible.cfg
 Execute the following command to build the Execution Environment:
 
 ```shell
-ansible-builder build -t <TAG>
+ansible-navigator builder build -t <TAG>
 ```
 
 ## Push the Execution to an Image Registry (Optional)
