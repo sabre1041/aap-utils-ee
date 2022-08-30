@@ -1,5 +1,5 @@
 collections:
   - ansible.controller
-    # - redhat_cop.aap_utilities
+  - redhat_cop.aap_utilities
   - redhat_cop.ah_configuration
   - redhat_cop.controller_configuration
