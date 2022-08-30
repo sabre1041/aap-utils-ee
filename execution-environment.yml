@@ -4,7 +4,7 @@ ansible_config: ansible.cfg
 
 build_arg_defaults:
   EE_BASE_IMAGE: 'registry.redhat.io/ansible-automation-platform-22/ee-minimal-rhel8:1.0'
-  EE_BUILDER_IAGE: 'registry.redhat.io/ansible-automation-platform-22/ansible-builder-rhel8:1.1'
+  EE_BUILDER_IMAGE: 'registry.redhat.io/ansible-automation-platform-22/ansible-builder-rhel8:1.1'
 
 dependencies:
   system: bindep.txt
